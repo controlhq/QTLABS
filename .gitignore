@@ -1,0 +1,11 @@
+# Ignoruj wszystkie foldery build, nieważne gdzie są
+**/build/
+**/build-*/
+**/CMakeFiles/
+**/_autogen/
+
+# Pliki użytkownika i śmieci
+**/*.user
+**/*.user.*
+**/*.cmake
+**/.qtcreator/
