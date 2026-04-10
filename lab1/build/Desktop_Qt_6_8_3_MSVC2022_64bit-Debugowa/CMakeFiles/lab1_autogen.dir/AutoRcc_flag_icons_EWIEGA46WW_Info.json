@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "C:/Users/Arek/Desktop/QTLABS/lab1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debugowa/lab1_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Arek/Desktop/QTLABS/lab1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debugowa",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Arek/Desktop/QTLABS/lab1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debugowa",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Arek/Desktop/QTLABS/lab1",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Arek/Desktop/QTLABS/lab1",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "NMake Makefiles JOM",
+	"INCLUDE_DIR" : "C:/Users/Arek/Desktop/QTLABS/lab1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debugowa/lab1_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/Arek/Desktop/QTLABS/lab1/de.png",
+		"C:/Users/Arek/Desktop/QTLABS/lab1/gb.png",
+		"C:/Users/Arek/Desktop/QTLABS/lab1/pl.png",
+		"C:/Users/Arek/Desktop/QTLABS/lab1/ru.png"
+	],
+	"LOCK_FILE" : "C:/Users/Arek/Desktop/QTLABS/lab1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debugowa/CMakeFiles/lab1_autogen.dir/AutoRcc_flag_icons_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "flag_icons" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_flag_icons.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.8.3/msvc2022_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/Arek/Desktop/QTLABS/lab1/build/Desktop_Qt_6_8_3_MSVC2022_64bit-Debugowa/CMakeFiles/lab1_autogen.dir/AutoRcc_flag_icons_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/Arek/Desktop/QTLABS/lab1/flag_icons.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
