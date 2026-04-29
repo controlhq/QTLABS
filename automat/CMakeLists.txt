@@ -30,6 +30,9 @@ add_executable(automat src/main.cpp
         src/paymentwindows.ui
         src/appbase.h src/appbase.cpp src/appbase.ui
         src/coininserter.h src/coininserter.cpp src/coininserter.ui
+        src/summarywindow.h src/summarywindow.cpp src/summarywindow.ui
+
+
 )
 
 target_link_libraries(automat

@@ -21,15 +21,17 @@ class BaseWindow : public QWidget {
     Q_OBJECT
 
 public:
+    void resetTickets();
     explicit BaseWindow(QWidget *parent = nullptr);
 
     ~BaseWindow() override;
 
 signals:
-    void buyTicket();
+    void buyTicket(int kwotaDoZaplaty, int normalne, int ulgowe);
 
 private slots:
     void updateDataTime();
+    void processPurchase();
 private:
     Ui::baseWindow *ui;
     QTimer timer;
@@ -40,6 +42,7 @@ private:
     void minusNormalTickedCount();
     void addDiscountTickerCount();
     void minusDiscountTickerCount();
+    bool isticketcount0();
 
 
 };

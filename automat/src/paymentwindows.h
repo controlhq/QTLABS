@@ -5,7 +5,7 @@
 #ifndef AUTOMAT_PAYMENTWINDOWS_H
 #define AUTOMAT_PAYMENTWINDOWS_H
 
-#include <CoinInserter.h>
+#include "coininserter.h"
 #include <QWidget>
 
 
@@ -22,13 +22,28 @@ class PaymentWindows : public QWidget {
 
 public:
     explicit PaymentWindows(QWidget *parent = nullptr);
-
+    void setAmountToPay(int amountInGrosze, int normal, int reduced);
     ~PaymentWindows() override;
 
 private:
+    int normalTicketsCount = 0;
+    int reducedTicketsCount = 0;
     Ui::PaymentWindows *ui;
+    int totalToPay=0;
+    int amountPaid=0;
+    void updateLabels();
+    QTimer *clockTimer;
 
     CoinInserter coinInserter;
+
+private slots:
+    void handleCoin(int coinValue);
+    void updateDataTime();
+    void onReturnClicked();
+
+signals:
+    void resetAndReturnToMain();
+    void paymentSuccessful(int change, int normal, int reduced);
 
     // QWidget interface
 protected:

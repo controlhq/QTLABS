@@ -15,6 +15,9 @@ public:
     explicit CoinInserter(QWidget *parent = nullptr);
     ~CoinInserter();
 
+signals:
+    void coinInserted(int amountInGrosze);
+
 private:
     Ui::CoinInserter *ui;
 
